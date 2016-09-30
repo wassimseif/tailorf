@@ -1,8 +1,8 @@
  import Foundation
  import SwiftyBeaver
-  let log = SwiftyBeaver.self
+ let log = SwiftyBeaver.self
  func setupSwiftyBeaver(){
-
+    
     let console = ConsoleDestination()  // log to Xcode Console
     let file = FileDestination()
     file.logFileURL =  URL(string:"file:///Users/wassim/Desktop/Personal/tailorf/logs/tailof.log" )
@@ -17,26 +17,28 @@
     log.addDestination(cloud)
  }
  
- func parseJSON (withData data: Data ) -> [String : AnyObject]?{
-    do {
-        let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String:AnyObject]
-        return json
-    }catch{
-        print("Error")
-        return nil
-    }
-    
- }
- 
+
  setupSwiftyBeaver()
  log.verbose("testing verbose")
  /// Gets a hand of the standard input
  let stdin = FileHandle.standardInput
  /// This will hault the program until it gets it's input
  let data  = stdin.readDataToEndOfFile()
- let json = parseJSON(withData: data)
  
- let summary = Summary.initFrom(Object: json!["summary"]!)
- 
- print(summary!.analyzedCount)
- 
+ let jsonFormatter = JSONFormatter(withData: data)
+
+ log.verbose("Started parsing summary")
+ let summary = jsonFormatter?.parseSummary()
+ if summary == nil {
+    log.error("Summary is nil")
+    fatalError()
+ }
+ print("*****************************")
+ print("Summary :")
+ print("Number of file scanned : \(summary!.analyzedCount!)")
+ print("Number of violations : \(summary!.violationsCount!)")
+ print("Number of warnings : \(summary!.warningsCount!)")
+ print("Number of errors : \(summary!.errorsCount!)")
+ print("Number of file skipped : \(summary!.skippedCount!)")
+ print("End of summary")
+ print("*************************")
