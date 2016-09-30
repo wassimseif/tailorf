@@ -1,5 +1,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "tailorf"
+    name: "tailorf",
+    targets: [],
+    dependencies: [
+          
+        ]
 )

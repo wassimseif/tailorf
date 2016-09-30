@@ -1,0 +1,1929 @@
+{
+  "files": [
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Companies List/Companies Page View /Companies Page View Controller/CompaniesPageViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Companies List/Companies Page View /Companies Type  Collection View Cell/CompaniesTypeCollectionViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 18,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Companies List/Companies Table View /Companies Table View Cell/CompaniesTableViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 29,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Companies List/Companies Table View /Companies Table View Controller/CompaniesTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 27,
+            "column": 76
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 49,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Company Profile/Company Profile Info Table View/Cells/Company Location/CompanyLocationTableViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "lower-camel-case",
+          "location": {
+            "line": 18,
+            "column": 24
+          },
+          "message": "Variable names should be lowerCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 54,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Company Profile/Company Profile Info Table View/Cells/Company Services/CompanyServicesTableViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 16,
+            "column": 55
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 17,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Company Profile/Company Profile Info Table View/Cells/Followers And Contacts/FollowersAndContactsCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 30,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Company Profile/Company Profile Info Table View/Cells/General Info/CompanyGeneralInfoCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 28,
+            "column": 47
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 29,
+            "column": 45
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 30,
+            "column": 47
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 31,
+            "column": 45
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 32,
+            "column": 51
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 33,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Company Profile/Company Profile Info Table View/CompanyProfileInfoTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "colon-whitespace",
+          "location": {
+            "line": 37,
+            "column": 20
+          },
+          "message": "Colon at column 20 should have no spaces before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 39,
+            "column": 80
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "colon-whitespace",
+          "location": {
+            "line": 43,
+            "column": 20
+          },
+          "message": "Colon at column 20 should have no spaces before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 45,
+            "column": 80
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "colon-whitespace",
+          "location": {
+            "line": 49,
+            "column": 20
+          },
+          "message": "Colon at column 20 should have no spaces before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 51,
+            "column": 80
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "colon-whitespace",
+          "location": {
+            "line": 56,
+            "column": 45
+          },
+          "message": "Colon at column 45 should have no spaces before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 58,
+            "column": 80
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "colon-whitespace",
+          "location": {
+            "line": 73,
+            "column": 20
+          },
+          "message": "Colon at column 20 should have no spaces before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 75,
+            "column": 80
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "colon-whitespace",
+          "location": {
+            "line": 79,
+            "column": 20
+          },
+          "message": "Colon at column 20 should have no spaces before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 81,
+            "column": 80
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "colon-whitespace",
+          "location": {
+            "line": 85,
+            "column": 20
+          },
+          "message": "Colon at column 20 should have no spaces before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 87,
+            "column": 80
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "colon-whitespace",
+          "location": {
+            "line": 92,
+            "column": 45
+          },
+          "message": "Colon at column 45 should have no spaces before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 94,
+            "column": 80
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 118,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Companies/Company Profile/Company Profile Page View/CompanyProfilePageViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Contacts/Contacts Page View/ContactsPageViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Contacts/Contacts Table View/Cell/ContactsTableViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 22,
+            "column": 50
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 23,
+            "column": 47
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 31,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Contacts/Contacts Table View/ContactsTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 22,
+            "column": 39
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "trailing-closure",
+          "location": {
+            "line": 23,
+            "column": 46
+          },
+          "message": "Closure is the function's final argument and may be passed as a trailing closure instead"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 34,
+            "column": 76
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 37,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Custom Side Menu Controller/Side Menu Controller/CustomSideMenuViewController.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Custom Side Menu Controller/Side Menu Controller/PreSideMenuViewController.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Custom Side Menu Controller/Side Meu Table View Controller/SideMenuTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 55,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Forums/ForumsPageViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Forums/TableViews/Discussions Table View/DiscussionsTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 26,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Forums/TableViews/Groups Table View/GroupsTableViewController.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Help View Controller/Help Collection View Cell/HelpCollectionViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 22,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Help View Controller/HelpViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Industry Type Table View Controller/Cell/IndustryTypeTableViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 19,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Industry Type Table View Controller/IndustryTypeTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 26,
+            "column": 76
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 29,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Jobs/Jobs Detail View Controller/JobsDetailViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Jobs/Jobs Table View/Cell/JobsTableViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 51,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Jobs/Jobs Table View/Jobs Table View Controller/JobsTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 28,
+            "column": 76
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 52,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Licenses/Add License View Controller/Add License View Controller/AddLicenseViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Licenses/Add License View Controller/Add license Collection View Cell/AddLicenseCollectionViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 17,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Licenses/Licenses Table View Controller/LicensesTableViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Location/Company/Company Add Location View Controller/CompanyAddLocationViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 59,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Location/Company/Company Locaitons Table  View Controller/CompanyLocationsCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 18,
+            "column": 54
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 20,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Location/Company/Company Locaitons Table  View Controller/CompanyLocationsTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 54,
+            "column": 76
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "trailing-closure",
+          "location": {
+            "line": 69,
+            "column": 46
+          },
+          "message": "Closure is the function's final argument and may be passed as a trailing closure instead"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 78,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Location/Company/Company add Location Table View Controller/CompanyAddLocationTableViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Location/Individual Add Location View Controller/IndividualAddLocationViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Login View Controller/Login View Controller Cell/LoginViewControllerCell.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Login View Controller/LoginViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Main Feed View Controller/MainFeedPageViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Main Feed View Controller/Table Views/Main Feed/Cell/MainViewFeedCellWithImage.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "lower-camel-case",
+          "location": {
+            "line": 25,
+            "column": 24
+          },
+          "message": "Variable names should be lowerCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 51,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Main Feed View Controller/Table Views/Main Feed/MainFeedTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 35,
+            "column": 81
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 37,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Main Feed View Controller/Table Views/Profile/MyProfilePageViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Meetup/Meetup View Controller/MeetupViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 19,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Meetup/Who's in town /Who's in town List View/Cell/WhosInTownTableViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 25,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Meetup/Who's in town /Who's in town List View/WhosInTownTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 24,
+            "column": 76
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 27,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Meetup/Who's in town /Who's in town Map View/WhosInTownMapViewController.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Meetup/Who's in town /Who'sI In Town Page View Controller/WhosInTownPageViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/My Avianture/My Avianture Table View Controller/MyAviantureTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 42,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/My Profile/My Profile Table View/Cells/Professional Background Cell/ProfessionalBackgroundCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 28,
+            "column": 52
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 29,
+            "column": 52
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 30,
+            "column": 48
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 31,
+            "column": 52
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 32,
+            "column": 59
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 33,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/My Profile/My Profile Table View/MyProfileTableViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/MyProfilePageViewController.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Navigation Bar Controller/Default Navigation Bar Controller/DefaultNavigationBarController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 20,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Navigation Bar Controller/No seperator Navigation Controller/NoSeperatorNavigationBarController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 28,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/New Post View/NewPostViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 25,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Notifications/NotificationsTableView/Cells/NotificationsTableViewCell.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Notifications/NotificationsTableView/NotificationsTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 24,
+            "column": 76
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 26,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Professional Background View/ProfessionalBackgroundViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/References/References Table View Cell/ReferencesTableViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 21,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/References/Referenecs Table View/ReferencesTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 22,
+            "column": 76
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 25,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Company Registration Controllers/Company Registration Page View Controller/CompanyRegistrationPageViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Company Registration Controllers/Table View Controllers/Company Information Table View Controller/CompanyInformationTableViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Company Registration Controllers/Table View Controllers/Contact Information Table View/ContactInformationTableViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Company Registration Controllers/Table View Controllers/Contact Person Table View/ContactPersonTableViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Individual Registration Controllers/Individual Registration Page View Controller/IndividualRegistrationPageViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Individual Registration Controllers/Individual Registration Page View Controller/InformationDelegateExtensionRegistrationPageView.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 36,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Individual Registration Controllers/IndividualResgistrationMainViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Individual Registration Controllers/Table View Controllers/Additional Information Table View /AdditionalInformationTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 23,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Individual Registration Controllers/Table View Controllers/Personal Information Table View /PersonalInformationTableViewController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Individual Registration Controllers/Table View Controllers/Profession Table View/ProfessionTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "forced-type-cast",
+          "location": {
+            "line": 75,
+            "column": 98
+          },
+          "message": "Force casts should be avoided"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 78,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Registration Controllers/Individual Registration Controllers/Table View Controllers/Profession Table View/Professional Table View Cell/ProfessionTableViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 19,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Settings Table View Controller/SettingsTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 16,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Tetst\\/DemoTalbView.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 15,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Trainings/Add Training View Controller/Add Training Collection View Cell /AddTrainingCollectionViewCell.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 16,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Trainings/Add Training View Controller/Add Training View Controller/AddTrainingViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 41,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Controllers/Trainings/Trainings Table View Controller/TrainingsTableViewController.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 19,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Helpers/Constants.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "brace-style",
+          "location": {
+            "line": 22,
+            "column": 29
+          },
+          "message": "Opening brace should have exactly one space before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "colon-whitespace",
+          "location": {
+            "line": 23,
+            "column": 34
+          },
+          "message": "Colon at column 34 should have no spaces before it"
+        },
+        {
+          "severity": "warning",
+          "rule": "trailing-whitespace",
+          "location": {
+            "line": 25,
+            "column": 4
+          },
+          "message": "Line should not have any trailing whitespace"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 50,
+            "column": 20
+          },
+          "message": "Struct names should be UpperCamelCase"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Helpers/Extensions.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 37,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 51,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 96,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 113,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "lower-camel-case",
+          "location": {
+            "line": 137,
+            "column": 10
+          },
+          "message": "Function names should be lowerCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 140,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 150,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 162,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 179,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 210,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 229,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 239,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 250,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 260,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Helpers/Global functions.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Helpers/Globals.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 20,
+            "column": 10
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 21,
+            "column": 10
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 22,
+            "column": 10
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 91,
+            "column": 10
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 92,
+            "column": 10
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 93,
+            "column": 10
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 94,
+            "column": 10
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 138,
+            "column": 10
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 139,
+            "column": 10
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "lower-camel-case",
+          "location": {
+            "line": 183,
+            "column": 13
+          },
+          "message": "Function names should be lowerCamelCase"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Helpers/ThirdPartyLibraries/DatePickerDialog.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Helpers/ThirdPartyLibraries/HBPickerView.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Helpers/Utilities.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Models/Data/Country.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Models/Data/Location/Location.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Models/Data/Sample Responses/SampleResponses.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Models/Data/Shared Information/SharedInformation.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Models/Network Models/Data Manager/DataManager.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Models/Network Models/Server Interface/ServerInterface.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Models/Network Models/Server Interface/ServerInterfaceError.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Models/Network Models/Server Interface/ServerInterfaceResponse.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Avianture/Supporting Files/AppDelegate.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 91,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/AviantureTests/AviantureTests.swift",
+      "violations": [],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/AviantureUITests/AviantureUITests.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "leading-whitespace",
+          "location": {
+            "line": 1,
+            "column": 1
+          },
+          "message": "File should not start with whitespace"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 35,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SideMenuController/Source/CenterContainmentSegue.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SideMenuController/Source/SideContainmentSegue.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SideMenuController/Source/SideMenuController+CustomTypes.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 13,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 14,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 15,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 16,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 28,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 29,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 30,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 31,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SideMenuController/Source/SideMenuController+SideOver.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 169,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SideMenuController/Source/SideMenuController+SideUnder.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "redundant-parentheses",
+          "location": {
+            "line": 115,
+            "column": 16
+          },
+          "message": "Switch expression should not be enclosed within parentheses"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 183,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SideMenuController/Source/SideMenuController.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SideMenuController/Source/TransitionAnimator.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 48,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 79,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SideMenuController/Source/UIKitExtensions.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SwiftyBeaver/sources/AES256CBC.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SwiftyBeaver/sources/BaseDestination.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SwiftyBeaver/sources/ConsoleDestination.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 43,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SwiftyBeaver/sources/FileDestination.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 109,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SwiftyBeaver/sources/Filter.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 79,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 168,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 197,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 226,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 255,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SwiftyBeaver/sources/SBPlatformDestination.swift",
+      "violations": [],
+      "parsed": false
+    },
+    {
+      "path": "/Users/wassim/Desktop/TEDMOB/Avianture/Avianture/Pods/SwiftyBeaver/sources/SwiftyBeaver.swift",
+      "violations": [
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 21,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 22,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 23,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 24,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "upper-camel-case",
+          "location": {
+            "line": 25,
+            "column": 14
+          },
+          "message": "Enum case names should be UpperCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "lower-camel-case",
+          "location": {
+            "line": 124,
+            "column": 16
+          },
+          "message": "Function names should be lowerCamelCase"
+        },
+        {
+          "severity": "warning",
+          "rule": "redundant-parentheses",
+          "location": {
+            "line": 140,
+            "column": 32
+          },
+          "message": "Empty parentheses following method call with trailing closure argument should be removed"
+        },
+        {
+          "severity": "warning",
+          "rule": "redundant-parentheses",
+          "location": {
+            "line": 144,
+            "column": 31
+          },
+          "message": "Empty parentheses following method call with trailing closure argument should be removed"
+        },
+        {
+          "severity": "warning",
+          "rule": "function-whitespace",
+          "location": {
+            "line": 186,
+            "column": 6
+          },
+          "message": "Function should have at least one blank line after it"
+        }
+      ],
+      "parsed": true
+    }
+  ],
+  "summary": {
+    "violations": 148,
+    "warnings": 148,
+    "analyzed": 70,
+    "errors": 0,
+    "skipped": 36
+  }
+}
