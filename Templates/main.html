@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tailor Report</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+
+<h2>TAILOR REPORT</h2>
+
+
+<h3>
+
+Summary
+</h3>
+
+
+<table class="table table-condensed">
+
+<td>
+            {% for key, value in data.summary.iteritems() %}
+
+<tr>{{ key }}: {{ value }}</tr>
+
+
+            {% endfor %}
+        </td>
+
+    </table>
+
+
+
+
+
+    {% for file in data.files %}
+
+<h4>
+
+{{ basename_function(file.path, prefix) }}
+</h4>
+
+
+<table class="table table-condensed table-bordered">
+
+<tr>
+
+<td><strong>Severity</strong></td>
+
+
+<td><strong>Rule</strong></td>
+
+
+<td><strong>Location - line/column</strong></td>
+
+
+<td><strong>Error message</strong></td>
+
+        </tr>
+
+        {% for error in file.violations %}
+
+<tr>
+
+<td>
+                <mark>{{ error.severity }}</mark>
+            </td>
+
+
+<td>{{ error.rule }}</td>
+
+
+<td>{{ error.location.line }}/{{ error.location.column }}</td>
+
+
+<td><em>{{ error.message }}</em></td>
+
+        </tr>
+
+        {% endfor %}
+    </table>
+
+
+
+
+
+    {% endfor %}
+</div>
+
+</body>
+</html>
