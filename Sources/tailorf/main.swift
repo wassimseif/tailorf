@@ -1,27 +1,7 @@
 import Foundation
 
 
-let stdin = FileHandle.standardInput
-let data  = stdin.readDataToEndOfFile()
-print(data)
-do {
-    let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String:AnyObject]
-    print(json)
-    
-}catch{
-    print("Error")
-    
-}
-
-
-func parseJSON () -> [String : AnyObject]?{
-    
-    guard let url = Bundle.main.url(forResource: "test", withExtension: "json") else {
-        return nil
-    }
-    guard let data = try? Data(contentsOf: url) else {
-        return nil
-    }
+func parseJSON (withData data: Data ) -> [String : AnyObject]?{
     do {
         let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String:AnyObject]
         return json
@@ -33,9 +13,12 @@ func parseJSON () -> [String : AnyObject]?{
 }
 
 
-let json = parseJSON()
 
-
-//print(json!["summary"]!)
+/// Gets a hand of the standard input
+let stdin = FileHandle.standardInput
+/// This will hault the program until it gets it's input
+let data  = stdin.readDataToEndOfFile()
+let json = parseJSON(withData: data)
+print(json!["summary"])
 
 
