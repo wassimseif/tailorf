@@ -4,7 +4,8 @@
  func setupSwiftyBeaver(){
 
     let console = ConsoleDestination()  // log to Xcode Console
-    let file = FileDestination()  // log to default swiftybeaver.log file
+    let file = FileDestination()
+    file.logFileURL =  URL(string:"file:///Users/wassim/Desktop/Personal/tailorf/logs/tailof.log" )
     let cloud = SBPlatformDestination(appID: "foo", appSecret: "bar", encryptionKey: "123") // to cloud
     
     // use custom format and set console output to short time, log level & message
@@ -26,7 +27,6 @@
     }
     
  }
- 
  
  setupSwiftyBeaver()
  log.verbose("testing verbose")
