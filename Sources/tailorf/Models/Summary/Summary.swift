@@ -24,11 +24,19 @@ class Summary {
         
     }
     class func initFrom(Object object : AnyObject ) -> Summary?{
-        guard let violationsCount = object["violations"] as? Double,
-              let warningsCount = object["warnings"] as? Double,
-              let analyzedCount = object["analyzed"] as? Double,
-            let errorsCount = object["errors"] as? Double,
-            let skippedCount = object["skipped"] as? Double else {
+        guard let violationsCount = object["violations"] as? Double else {
+            return nil
+        }
+        guard let warningsCount = object["warnings"] as? Double else {
+            return nil
+        }
+        guard let analyzedCount = object["analyzed"] as? Double else {
+            return nil
+        }
+        guard let errorsCount = object["errors"] as? Double else {
+            return nil
+        }
+        guard let skippedCount = object["skipped"] as? Double else {
                 return nil
         }
         return Summary(violationsCount: violationsCount, warningsCount: warningsCount, analyzedCount: analyzedCount, errorsCount: errorsCount, skippedCount: skippedCount)

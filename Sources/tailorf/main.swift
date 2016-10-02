@@ -18,15 +18,17 @@
  setupSwiftyBeaver()
  let data : Data!
  #if DEBUG
+    print("DEBUG MODE")
  guard let url = Bundle.main.url(forResource: "test", withExtension: "json") else {
     exit(1)
  }
  guard let dataFromFile = NSData(contentsOf: url) else {
     exit(1)
  }
- data = dataFromFile as! Data
+ data = dataFromFile as Data
     
  #else
+    print("RELASE MODE")
     /// Gets a hand of the standard input
  let stdin = FileHandle.standardInput
     /// This will hault the program until it gets it's input

@@ -30,7 +30,7 @@ class Violation {
         guard let message = object["message"] as? String else {
             return nil
         }
-        let locationAsAnyObject = object["location"]!! as! AnyObject
+        let locationAsAnyObject = object["location"]!! as AnyObject
         
         
         

@@ -19,14 +19,21 @@ class File {
         self.violations = violations
     }
     class func initFrom(Object object : AnyObject) -> File? {
-        guard let path = object["path"] as? String ,
-              let parsed = object["parsed"] as? Bool,
-            let violationsAsArrayOfAnyObjects = object["violations"] as? [AnyObject] else {
-                return nil
+        guard let path = object["path"] as? String else {
+            return nil
         }
+        guard let parsed = object["parsed"] as? Bool else {
+            return nil
+        }
+        
+        guard let violationsAsArrayOfAnyObjects = object["violations"] as? [AnyObject] else {
+            return nil
+        }
+        
         if !parsed{
             return File(atPath: path, didParse: parsed, havingViolations: nil)
         }
+        
         var violations = [Violation]()
         for violation in violationsAsArrayOfAnyObjects{
             let newViolation = Violation.initFrom(Object: violation)
