@@ -45,9 +45,13 @@
  }
  
  let files = jsonFormatter?.parseFiles()
+ if files == nil {
+    log.error("Files is nil")
+    exit(1)
+ }
  print("files count : \(files!.count)")
- let path = "/Users/wassimseifeddine/Desktop/report.html"
- print(Printer.write(path: path , content: "Test"))
+
+ let reportHandler =  ReportHandler(withFiles: files!)
  
  
  
