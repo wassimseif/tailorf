@@ -8,7 +8,10 @@
 
 import Foundation
 class Location {
-    var line : Int!
+    var line : Double!
     var column : Double!
-    
+    init(atLine line : Double, atColumn column : Double ){
+        self.line = line
+        self.column = column
+    }
 }

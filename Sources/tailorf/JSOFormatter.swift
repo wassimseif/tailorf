@@ -36,6 +36,22 @@ class JSONFormatter {
             return nil
         }
          return Summary.initFrom(Object: json!["summary"]!)
-        
+    }
+    
+    func parseFiles() -> [File]?{
+        guard (json != nil) && (json!["files"] != nil) else {
+            return nil
+        }
+        guard let filesAsArrayOfAnyObject = json!["files"] as? [AnyObject] else {
+            return nil
+        }
+        var files = [File]()
+        for file in filesAsArrayOfAnyObject {
+            let newFile = File.initFrom(Object: file)
+            if newFile != nil {
+                files.append(newFile!)
+            }
+        }
+        return files
     }
 }
