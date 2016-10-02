@@ -11,9 +11,9 @@ import Foundation
 class File {
     var path : String!
     var parsed : Bool!
-    var violations : [Violation]!
+    var violations : [Violation]? = nil
     
-    init(atPath path : String , didParse parsed : Bool , havingViolations violations : [Violation]){
+    init(atPath path : String , didParse parsed : Bool , havingViolations violations : [Violation]?){
         self.path = path
         self.parsed = parsed
         self.violations = violations
@@ -23,6 +23,9 @@ class File {
               let parsed = object["parsed"] as? Bool,
             let violationsAsArrayOfAnyObjects = object["violations"] as? [AnyObject] else {
                 return nil
+        }
+        if !parsed{
+            return File(atPath: path, didParse: parsed, havingViolations: nil)
         }
         var violations = [Violation]()
         for violation in violationsAsArrayOfAnyObjects{

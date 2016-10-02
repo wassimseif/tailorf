@@ -18,20 +18,14 @@
  setupSwiftyBeaver()
  let data : Data!
  #if DEBUG
- guard let url = NSBundle.mainBundle().URLForResource("countries", withExtension: "json") else {
-    return nil
+ guard let url = Bundle.main.url(forResource: "test", withExtension: "json") else {
+    exit(1)
  }
- guard let data = NSData(contentsOfURL: url) else {
-    return nil
+ guard let dataFromFile = NSData(contentsOf: url) else {
+    exit(1)
  }
- do {
-    let json = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments) as? [[String:AnyObject]]
-    return json!
- }catch{
-    print("Error")
-    return nil
- }
-
+ data = dataFromFile as! Data
+    
  #else
     /// Gets a hand of the standard input
  let stdin = FileHandle.standardInput
@@ -41,7 +35,7 @@
  #endif
  
  
- let jsonFormatter = JSONFormatter(withData: data)
+ let jsonFormatter = JSONFormatter(withData: data as Data)
  
  log.verbose("Started parsing summary")
  let summary = jsonFormatter?.parseSummary()

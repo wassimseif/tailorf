@@ -21,13 +21,20 @@ class Violation {
         self.message = message
     }
     class func initFrom(Object object : AnyObject) -> Violation?{
-        guard let severity = object["severity"] as? String ,
-            let rule = object["rule"] as? String,
-            let message = object["message"] as? String ,
-            let locationAsAnyObject = object["Location"] as? AnyObject else {
+        guard let severity = object["severity"] as? String else {
             return nil
         }
-         let location = Location(atLine: locationAsAnyObject["line"] as! Double , atColumn: (locationAsAnyObject["column"] as? Double)!)
+        guard let rule = object["rule"] as? String else {
+            return nil
+        }
+        guard let message = object["message"] as? String else {
+            return nil
+        }
+        let locationAsAnyObject = object["location"]!! as! AnyObject
+        
+        
+        
+         let location = Location(atLine: locationAsAnyObject["line"]! as! Double , atColumn: (locationAsAnyObject["column"]! as! Double))
         
         return Violation(havingSeverity: severity, withRule: rule, atLocation: location, withMessage: message)
     }
