@@ -31,6 +31,9 @@ class JSONFormatter {
         }
     }
     
+    /// Parse the summary of the linting
+    ///
+    /// - returns: Summary object or nil if an error occured
     func parseSummary() -> Summary?{
         guard (json != nil) && (json!["summary"] != nil) else {
             return nil
@@ -38,6 +41,9 @@ class JSONFormatter {
          return Summary.initFrom(Object: json!["summary"]!)
     }
     
+    /// Parse the files from the JSON object.
+    ///
+    /// - returns: Array of parsed files or nil if error
     func parseFiles() -> [File]?{
         guard (json != nil) && (json!["files"] != nil) else {
             return nil

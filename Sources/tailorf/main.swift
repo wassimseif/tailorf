@@ -33,9 +33,7 @@
  let stdin = FileHandle.standardInput
     /// This will hault the program until it gets it's input
  data  = stdin.readDataToEndOfFile()
-    
  #endif
- 
  
  let jsonFormatter = JSONFormatter(withData: data as Data)
  
@@ -48,3 +46,16 @@
  
  let files = jsonFormatter?.parseFiles()
  print("files count : \(files!.count)")
+ let path = "/Users/wassimseifeddine/Desktop/report.html"
+ print(Printer.write(path: path , content: "Test"))
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
