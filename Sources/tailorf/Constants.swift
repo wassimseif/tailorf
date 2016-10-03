@@ -9,5 +9,5 @@
 import Foundation
 class Constants {
 
-    static let dateFormat = "EEEE MMM-dd-yyy,hh:m a"
+    static let dateFormat = "EEEE MMM-dd-yyy,hh::m a"
 }
