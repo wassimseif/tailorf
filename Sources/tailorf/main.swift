@@ -51,7 +51,7 @@
  }
  print("files count : \(files!.count)")
 
- let reportHandler =  ReportHandler(withFiles: files!)
+ let reportHandler =  ReportHandler(withFiles: files!,andReportSummary : summary!)
  
  
  

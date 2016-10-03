@@ -34,7 +34,7 @@ class Violation {
         
         
         
-         let location = Location(atLine: locationAsAnyObject["line"]! as! Double , atColumn: (locationAsAnyObject["column"]! as! Double))
+         let location = Location(atLine: locationAsAnyObject["line"]!! as! Double , atColumn: locationAsAnyObject["column"]!! as? Double)
         
         return Violation(havingSeverity: severity, withRule: rule, atLocation: location, withMessage: message)
     }
