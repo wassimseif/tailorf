@@ -1,5 +1,6 @@
  import Foundation
  import SwiftyBeaver
+ import MuttonChop
  let log = SwiftyBeaver.self
  func setupSwiftyBeaver(){
     let console = ConsoleDestination()  // log to Xcode Console
@@ -16,7 +17,7 @@
  
  
  setupSwiftyBeaver()
- let data : Data!
+ let data : Foundation.Data!
  #if DEBUG
     print("DEBUG MODE")
  guard let url = Bundle.main.url(forResource: "test", withExtension: "json") else {
@@ -25,7 +26,7 @@
  guard let dataFromFile = NSData(contentsOf: url) else {
     exit(1)
  }
- data = dataFromFile as Data
+ data = dataFromFile as Foundation.Data
     
  #else
     print("RELASE MODE")
@@ -35,7 +36,7 @@
  data  = stdin.readDataToEndOfFile()
  #endif
  
- let jsonFormatter = JSONFormatter(withData: data as Data)
+ let jsonFormatter = JSONFormatter(withData: data as Foundation.Data)
  
  log.verbose("Started parsing summary")
  let summary = jsonFormatter?.parseSummary()
@@ -53,13 +54,17 @@
 
  let reportHandler =  ReportHandler(withFiles: files!,andReportSummary : summary!)
  
+ guard let handle = FileHandle(forReadingAtPath: "/Users/wassimseifeddine/Desktop/Projects/Swift/trailorf/Templates/main.mustache") else {
+    fatalError("no file at path")
+ }
+ let contents = handle.readDataToEndOfFile()
+ let string = String(data: contents, encoding: String.Encoding.utf8)
+ print(string)
  
+ let template = try Template(string!)
  
- 
- 
- 
- 
- 
- 
- 
- 
+ let context: Context = [
+    "test": "Dan"
+ ]
+ let rendered = template.render(with: context)
+ print(rendered) // -> Hello, Dan!

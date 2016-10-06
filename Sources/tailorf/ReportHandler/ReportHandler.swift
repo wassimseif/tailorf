@@ -18,7 +18,7 @@ class ReportHandler {
         self.files = files
         self.summary = summary
         self.reportName = getReportName()
-        generateReport(atPath: "/Users/wassim/Desktop/")
+        generateReport(atPath: "/Users/wassimseifeddine/Desktop/")
         
     }
     /// Generates a new report name based on the current date with a special format
