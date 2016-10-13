@@ -52,19 +52,4 @@
  }
  print("files count : \(files!.count)")
 
- let reportHandler =  ReportHandler(withFiles: files!,andReportSummary : summary!)
- 
- guard let handle = FileHandle(forReadingAtPath: "/Users/wassimseifeddine/Desktop/Projects/Swift/trailorf/Templates/main.mustache") else {
-    fatalError("no file at path")
- }
- let contents = handle.readDataToEndOfFile()
- let string = String(data: contents, encoding: String.Encoding.utf8)
- print(string)
- 
- let template = try Template(string!)
- 
- let context: Context = [
-    "test": "Dan"
- ]
- let rendered = template.render(with: context)
- print(rendered) // -> Hello, Dan!
+ let reportHandler = ReportHandler(withFiles: files!, andReportSummary: summary!)

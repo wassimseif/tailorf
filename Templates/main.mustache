@@ -16,10 +16,7 @@
 <div class="container">
 
 <h2>TAILOR REPORT</h2>
-{{ test }}
-
 <h3>
-
 Summary
 </h3>
 
@@ -27,12 +24,15 @@ Summary
 <table class="table table-condensed">
 
 <td>
-            {% for key, value in data.summary.iteritems() %}
+            
 
-<tr>{{ key }}: {{ value }}</tr>
+<tr> Anaylyzed : {{analyzedCount}}</tr>
+<tr> Errors :{{errorsCount}}</tr>
+<tr> Skipped files : {{skippedCount}}</tr>
+<tr> Violations : {{ violationsCount }}</tr>
+<tr> Warnings :{{ warningsCount }}</tr>
 
 
-            {% endfor %}
         </td>
 
     </table>
