@@ -1,6 +1,6 @@
  import Foundation
  import SwiftyBeaver
- import MuttonChop
+ 
  let log = SwiftyBeaver.self
  func setupSwiftyBeaver(){
     let console = ConsoleDestination()  // log to Xcode Console

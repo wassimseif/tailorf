@@ -5,6 +5,6 @@ let package = Package(
     targets: [],
     dependencies: [
           .Package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver.git", majorVersion: 1),
-          .Package(url: "https://github.com/Danappelxx/MuttonChop.git", majorVersion: 0, minor: 1),
+          .Package(url: "https://github.com/groue/GRMustache.swift", majorVersion: 2, minor: 0),
         ]
 )
