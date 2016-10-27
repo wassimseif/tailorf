@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import Mustache
 
 class ReportHandler {
     var path : String!
@@ -18,9 +18,31 @@ class ReportHandler {
         self.files = files
         self.summary = summary
         self.reportName = getReportName()
-        
-    
-        
+        var template : Template? = nil 
+        do {
+             template = try Template(named: "main")
+
+        }catch {
+            
+            print("Error")
+            return
+        }
+        let summaryData: [String: Any] = [
+            "analyzedCount": "\(summary.analyzedCount!)",
+            "errorsCount" : "\(summary.errorsCount!)",
+            "skippedCount" : "\(summary.skippedCount!)",
+            "violationsCount" : "\(summary.violationsCount!)",
+            "warningsCount" : "\(summary.warningsCount!)",
+            "files" : files,
+
+        ]
+        var rendered : String? = ""
+        do {
+              rendered = try template?.render(summaryData)
+        }catch {
+            print("Error")
+        }
+        print(rendered!)
     }
     /// Generates a new report name based on the current date with a special format
     ///

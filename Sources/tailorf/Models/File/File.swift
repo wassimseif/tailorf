@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import Mustache
 
-class File {
+class File  {
     var path : String!
     var parsed : Bool!
     var violations : [Violation]? = nil
@@ -43,4 +44,14 @@ class File {
         }
         return File(atPath: path, didParse: parsed, havingViolations: violations)
     }
+}
+extension File : MustacheBoxable{
+    var mustacheBox: MustacheBox {
+        return Box([
+            "path": path,
+            "parsed": parsed,
+            "violations": violations,
+            ])
+    }
+    
 }

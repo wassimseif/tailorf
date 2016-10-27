@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import Mustache
 class Violation {
     var severity : String!
     var rule : String!
@@ -37,5 +37,15 @@ class Violation {
          let location = Location(atLine: locationAsAnyObject["line"]!! as! Double , atColumn: locationAsAnyObject["column"]!! as? Double)
         
         return Violation(havingSeverity: severity, withRule: rule, atLocation: location, withMessage: message)
+    }
+}
+extension Violation : MustacheBoxable {
+    var mustacheBox: MustacheBox {
+        return Box([
+            "severity": "\(severity)",
+            "rule": rule,
+            "location": location,
+            "message" : message
+            ])
     }
 }
