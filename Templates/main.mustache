@@ -20,79 +20,26 @@
 Summary
 </h3>
 
-{{ test }}
+<h3>{{ date }}</h3>
 <table class="table table-condensed">
 
 <td>
-            
+<tr><p> Anaylyzed : {{analyzedCount}}</p></tr>
+<tr><p> Errors :{{errorsCount}}</p></tr>
+<tr><p> Skipped files : {{skippedCount}}</p></tr>
+<tr><p> Violations : {{ violationsCount }}</p></tr>
+<tr><p> Warnings :{{ warningsCount }}</p></tr>
+</td>
+</table>
 
-<tr> Anaylyzed : {{analyzedCount}}</tr>
-<tr> Errors :{{errorsCount}}</tr>
-<tr> Skipped files : {{skippedCount}}</tr>
-<tr> Violations : {{ violationsCount }}</tr>
-<tr> Warnings :{{ warningsCount }}</tr>
 
-
-        </td>
-
-    </table>
+<h4> Files</h4>
 
 
 
 
 
-    {% for file in data.files %}
 
-<h4>
-
-
-</h4>
-
-
-<table class="table table-condensed table-bordered">
-
-<tr>
-
-<td><strong>Severity</strong></td>
-
-
-<td><strong>Rule</strong></td>
-
-
-<td><strong>Location - line/column</strong></td>
-
-
-<td><strong>Error message</strong></td>
-
-        </tr>
-
-        {% for error in file.violations %}
-
-<tr>
-
-<td>
-                <mark>{{ error.severity }}</mark>
-            </td>
-
-
-<td>{{ error.rule }}</td>
-
-
-<td>{{ error.location.line }}/{{ error.location.column }}</td>
-
-
-<td><em>{{ error.message }}</em></td>
-
-        </tr>
-
-        {% endfor %}
-    </table>
-
-
-
-
-
-    {% endfor %}
 </div>
 
 </body>

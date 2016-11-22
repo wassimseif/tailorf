@@ -14,8 +14,7 @@
     log.addDestination(file)
     log.addDestination(cloud)
  }
- 
- 
+
  setupSwiftyBeaver()
  let data : Foundation.Data!
  #if DEBUG

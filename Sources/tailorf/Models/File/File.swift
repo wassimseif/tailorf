@@ -50,7 +50,7 @@ extension File : MustacheBoxable{
         return Box([
             "path": path,
             "parsed": parsed,
-            "violations": violations,
+            "violations": violations ?? nil,
             ])
     }
     

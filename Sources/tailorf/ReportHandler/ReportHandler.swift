@@ -8,7 +8,7 @@
 
 import Foundation
 import Mustache
-
+import SwiftyBeaver
 class ReportHandler {
     var path : String!
     var files : [File]!
@@ -22,9 +22,12 @@ class ReportHandler {
         do {
              template = try Template(named: "main")
 
-        }catch {
+        }catch let error as MustacheError {
             
-            print("Error")
+            print("Error Loading Template \(error.kind)")
+            return
+        }catch {
+            print("Error Loading Template")
             return
         }
         let summaryData: [String: Any] = [
@@ -33,6 +36,7 @@ class ReportHandler {
             "skippedCount" : "\(summary.skippedCount!)",
             "violationsCount" : "\(summary.violationsCount!)",
             "warningsCount" : "\(summary.warningsCount!)",
+            "date" : Date(),
             "files" : files,
 
         ]
