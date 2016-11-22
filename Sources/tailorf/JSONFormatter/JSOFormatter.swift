@@ -54,7 +54,7 @@ class JSONFormatter {
         var files = [File]()
         for file in filesAsArrayOfAnyObject {
             let newFile = File.initFrom(Object: file)
-            if newFile != nil {
+            if newFile != nil  && newFile?.violations != nil {
                 files.append(newFile!)
             }
         }

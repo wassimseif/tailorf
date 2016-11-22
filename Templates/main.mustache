@@ -37,7 +37,16 @@ Summary
 
 
 
+{{# files }}
+<p>- {{ name }}</p>
+{{# violations}}
+<p>- {{ severity }}</p>
+<p>- {{ rule }}</p>
+<p>- {{ message }}</p>
+<p>- {{ location }}</p>
+{{/ violations}}
 
+{{/ files }}
 
 
 </div>

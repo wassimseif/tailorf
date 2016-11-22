@@ -8,7 +8,7 @@
 
 import Foundation
 import Mustache
-class Violation {
+class Violation  : NSObject {
     var severity : String!
     var rule : String!
     var location : Location!
@@ -39,13 +39,15 @@ class Violation {
         return Violation(havingSeverity: severity, withRule: rule, atLocation: location, withMessage: message)
     }
 }
-extension Violation : MustacheBoxable {
-    var mustacheBox: MustacheBox {
+extension Violation  {
+    override var mustacheBox: MustacheBox {
         return Box([
-            "severity": "\(severity)",
-            "rule": rule,
-            "location": location,
-            "message" : message
+            "severity": "\(severity!)",
+            "rule": "\(rule!)",
+            "location": "\(self.location.line!)/\(self.location.column!)",
+            "message" : "\(message!)"
             ])
     }
+
+    
 }

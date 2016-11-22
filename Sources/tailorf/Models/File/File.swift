@@ -9,7 +9,7 @@
 import Foundation
 import Mustache
 
-class File  {
+class File: NSObject {
     var path : String!
     var parsed : Bool!
     var violations : [Violation]? = nil
@@ -45,12 +45,12 @@ class File  {
         return File(atPath: path, didParse: parsed, havingViolations: violations)
     }
 }
-extension File : MustacheBoxable{
-    var mustacheBox: MustacheBox {
+extension File {
+    override var mustacheBox: MustacheBox {
         return Box([
-            "path": path,
-            "parsed": parsed,
-            "violations": violations ?? nil,
+            "name" : String((String(path.characters.reversed()).components(separatedBy: "/")[0]).characters.reversed()),
+            "parsed": parsed!,
+            "violations": violations ,
             ])
     }
     
